@@ -1,0 +1,237 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #282c34;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 5px solid #61dafb;
+}
+
+header .logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+  background: #61dafb;
+  color: #282c34;
+}
+
+/* Home Section */
+.home {
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #282c34;
+}
+
+/* Booking Section */
+.booking {
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+.booking h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #282c34;
+}
+
+.availability, .booking-form {
+  margin-bottom: 2rem;
+}
+
+.availability h2, .booking-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+
+#availabilityTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#availabilityTable th, #availabilityTable td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+#availabilityTable th {
+  background-color: #f4f4f4;
+  color: #282c34;
+}
+
+.booking-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #282c34;
+}
+
+.booking-form input, .booking-form select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.booking-form button {
+  background: #61dafb;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.booking-form button:hover {
+  background: #21a1f1;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #282c34;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  border-top: 5px solid #61dafb;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+/* Contact Section */
+.contact {
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #282c34;
+}
+
+.contact-info {
+  margin-bottom: 2rem;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: #61dafb;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #282c34;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #61dafb;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.contact-form button:hover {
+  background: #21a1f1;
+  transform: scale(1.05);
+}
